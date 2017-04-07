@@ -13,7 +13,7 @@ module.exports = function (grunt) { // jshint ignore:line
       },
       js   : {
         // Compile js files upon saving
-        files: ['build/js/*.js', 'dist/js/app.js'],
+        files: ['build/js/*.js'],
         tasks: ['js']
       },
       skins: {
@@ -103,7 +103,7 @@ module.exports = function (grunt) { // jshint ignore:line
       },
       production: {
         files: {
-          'dist/js/app.min.js'     : ['dist/js/app.js'],
+          //'dist/js/app.min.js'     : ['dist/js/app.js'],
           'dist/js/adminlte.min.js': ['dist/js/adminlte.js']
         }
       }
