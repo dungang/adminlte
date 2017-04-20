@@ -122,7 +122,7 @@ body {
 @media (max-width: 767px) {
   .fixed .content-wrapper,
   .fixed .right-side {
-    padding-top: 100px;
+    padding-top: 128px;
   }
 }
 .fixed.layout-boxed .wrapper {
@@ -195,7 +195,7 @@ a:focus {
  */
 .main-header {
   position: relative;
-  max-height: 100px;
+  max-height: 128px;
   z-index: 1030;
 }
 .main-header .navbar {
@@ -433,7 +433,7 @@ a:focus {
 @media (max-width: 767px) {
   .main-sidebar,
   .left-side {
-    padding-top: 100px;
+    padding-top: 128px;
   }
 }
 @media (max-width: 767px) {
